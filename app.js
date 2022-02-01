@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
 
-app.listen(3000)
+app.listen(4000)
 
 app.get("/info", (req, res) => {
-    console.log('ku ku');
+    console.log('test text');
 
-    res.send({message: "labas, as esu krabas"})
+    res.send({message: "test texttest texttest text"})
 })
